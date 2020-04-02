@@ -1,0 +1,44 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "rcmdnk/rcmdnkpac"
+tap "sanemat/font"
+
+brew "anyenv"
+brew "awscli"
+brew "cocoapods"
+brew "git"
+brew "git-now"
+brew "jq"
+brew "mackup"
+brew "macvim"
+brew "mas"
+brew "mysql-client@5.7"
+brew "rmtrash"
+brew "sanemat/font/ricty", args: ["with-powerline"]
+brew "starship"
+brew "tmux"
+brew "wget"
+brew "yarn"
+brew "zplug"
+brew "zsh"
+
+cask_args appdir: "/Applications"
+cask "alfred"
+cask "appcleaner"
+cask "docker"
+cask "dropbox"
+cask "google-chrome"
+cask "google-japanese-ime"
+cask "iterm2"
+cask "jetbrains-toolbox"
+cask "karabiner-elements"
+cask "notion"
+cask "shiftit"
+cask "zoomus"
+
+mas "LINE", id: 539883307
+mas "Skitch", id: 425955336
+mas "Slack", id: 803453959
+mas "Spark", id: 1176895641
+mas "Mate Translate", id: 1005088137
