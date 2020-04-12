@@ -18,5 +18,6 @@ source $DOTDIR/osx/com_apple_frameworks_diskimage.zsh
 source $DOTDIR/osx/com_apple_appstore.zsh
 source $DOTDIR/osx/com_apple_softwareupdate.zsh
 source $DOTDIR/osx/com_apple_systemuiserver.zsh
+source $DOTDIR/osx/com_apple_inputmethod_kotoeri.zsh
 source $DOTDIR/osx/other.zsh
 
