@@ -18,6 +18,7 @@ brew "rmtrash"
 brew "sanemat/font/ricty", args: ["with-powerline"]
 brew "starship"
 brew "tmux"
+brew "tree"
 brew "wget"
 brew "yarn"
 brew "zplug"
