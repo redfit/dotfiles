@@ -3,7 +3,8 @@ action "Install Anyenv..."
 running "anyenv init"
 anyenv init &>/dev/null;ok
 running "anyenv install --init"
-anyenv install --init &>/dev/null;ok
+anyenv install --init
+ok
 
 langs=("rbenv" "nodenv" "goenv")
 for lang in $langs; do

@@ -21,7 +21,7 @@ else
 fi
 
 running "chmod -R 755 /usr/local/share"
-chmod -R 755 /usr/local/share
+sudo chmod -R 755 /usr/local/share
 if [[ $? != 0 ]]; then
   error "chmod error"
   exit 2
