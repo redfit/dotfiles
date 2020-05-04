@@ -51,3 +51,6 @@ defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true;ok
 # コンソールアプリケーションの画面サイズ変更を高速にする
 running "NSWindowResizeTime -float 0.001"
 defaults write NSGlobalDomain NSWindowResizeTime -float 0.001;ok
+# 外部キーボードのファンクションキーは通常モードにする
+running "com.apple.keyboard.fnState -bool true;"
+defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true;ok
