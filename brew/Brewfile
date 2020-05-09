@@ -29,7 +29,6 @@ cask "alfred"
 cask "appcleaner"
 cask "docker"
 cask "dropbox"
-cask "google-chrome"
 cask "google-japanese-ime"
 cask "iterm2"
 cask "jetbrains-toolbox"
@@ -39,6 +38,7 @@ cask "shiftit"
 cask "zoomus"
 
 mas "LINE", id: 539883307
+mas "PicGIF Lite", id: 844918735
 mas "Skitch", id: 425955336
 mas "Slack", id: 803453959
 mas "Spark", id: 1176895641
