@@ -26,5 +26,3 @@ running "exec '$SHELL'"
 ok
 
 exec "$SHELL"
-
-
