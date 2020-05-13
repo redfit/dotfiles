@@ -6,7 +6,7 @@ running "anyenv install --init"
 anyenv install --init
 ok
 
-langs=("rbenv" "nodenv" "goenv")
+langs=("rbenv" "nodenv" "goenv" "pyenv")
 for lang in $langs; do
   if [[ "${+commands[$lang]}" == 0 ]]
   then
