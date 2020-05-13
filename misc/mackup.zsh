@@ -14,7 +14,8 @@ if [[ $response =~ (y|yes|Y) ]]; then
     # symlink might still exist
     unlink ~/$file > /dev/null 2>&1
     # create the link
-    ln -s ~/dotfiles/$file ~/$file
+    ln -s ~/ghq/src/github.com/redfit/dotfiles/$file ~/$file
+
     ok
   done
 fi
