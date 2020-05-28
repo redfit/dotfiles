@@ -19,6 +19,7 @@ brew "mackup"
 brew "macvim"
 brew "mas"
 brew "mysql-client@5.7"
+brew "redis"
 brew "ripgrep"
 brew "rmtrash"
 brew "sanemat/font/ricty", args: ["with-powerline"]
