@@ -3,9 +3,9 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "rcmdnk/rcmdnkpac"
 tap "sanemat/font"
-
 brew "anyenv"
 brew "awscli"
+brew "bat"
 brew "cocoapods"
 brew "dep"
 brew "direnv"
@@ -22,15 +22,14 @@ brew "mysql-client@5.7"
 brew "redis"
 brew "ripgrep"
 brew "rmtrash"
-brew "sanemat/font/ricty", args: ["with-powerline"]
 brew "starship"
+brew "terraform"
 brew "tmux"
 brew "tree"
 brew "wget"
 brew "yarn"
 brew "zsh"
-
-cask_args appdir: "/Applications"
+brew "sanemat/font/ricty", args: ["with-powerline"]
 cask "alfred"
 cask "appcleaner"
 cask "docker"
@@ -43,10 +42,12 @@ cask "notion"
 cask "shiftit"
 cask "trailer"
 cask "zoomus"
-
+mas "LadioCast", id: 411213048
 mas "LINE", id: 539883307
+mas "Mate Translate", id: 1005088137
 mas "PicGIF Lite", id: 844918735
+mas "ScreenBrush", id: 1233965871
 mas "Skitch", id: 425955336
 mas "Slack", id: 803453959
 mas "Spark", id: 1176895641
-mas "Mate Translate", id: 1005088137
+mas "TweetDeck", id: 485812721
