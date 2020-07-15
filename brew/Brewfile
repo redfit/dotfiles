@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "nektos/tap"
 tap "rcmdnk/rcmdnkpac"
 tap "sanemat/font"
 
@@ -23,15 +24,16 @@ brew "mysql-client@5.7"
 brew "redis"
 brew "ripgrep"
 brew "rmtrash"
-brew "sanemat/font/ricty", args: ["with-powerline"]
 brew "starship"
 brew "tmux"
 brew "tree"
 brew "wget"
 brew "yarn"
 brew "zsh"
+brew "nektos/tap/act"
+brew "sanemat/font/ricty", args: ["with-powerline"]
 
-cask_args appdir: "/Applications"
+cask_args appdir: "eApplications"
 cask "alfred"
 cask "appcleaner"
 cask "docker"
