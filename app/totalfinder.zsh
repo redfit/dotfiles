@@ -1,7 +1,7 @@
 action "Install TotalFinder..."
 if [ ! -e "/Applications/TotalFinder.app" ]; then
   running "download totalfinder.dmg"
-  wget https://downloads.binaryage.com/TotalFinder-1.12.3.dmg -O ~/Downloads/TotalFinder.dmg &>/dev/null;ok
+  wget --no-check-certificate https://downloads.binaryage.com/TotalFinder-1.13.8.dmg -O ~/Downloads/TotalFinder.dmg &>/dev/null;ok
   running "mount totalfinder.dmg"
   hdiutil mount ~/Downloads/TotalFinder.dmg &>/dev/null;ok
   cd /Volumes/TotalFinder/ &>/dev/null
