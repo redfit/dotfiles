@@ -47,6 +47,7 @@ cask "ngrok"
 cask "notion"
 cask "shiftit"
 cask "trailer"
+cask "zoom"
 
 mas "LINE", id: 539883307
 mas "PicGIF Lite", id: 844918735
