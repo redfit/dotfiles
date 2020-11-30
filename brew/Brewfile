@@ -34,6 +34,7 @@ brew "sanemat/font/ricty", args: ["with-powerline"]
 
 cask_args appdir: "eApplications"
 cask "alfred"
+cask "amazon-music"
 cask "appcleaner"
 cask "deepl"
 cask "docker"
