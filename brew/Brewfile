@@ -46,7 +46,6 @@ cask "jetbrains-toolbox"
 cask "karabiner-elements"
 cask "ngrok"
 cask "notion"
-cask "shiftit"
 cask "trailer"
 cask "zoom"
 
@@ -56,3 +55,4 @@ mas "Skitch", id: 425955336
 mas "Slack", id: 803453959
 mas "Spark", id: 1176895641
 mas "Mate Translate", id: 1005088137
+mas "Moom", id: 419330170
