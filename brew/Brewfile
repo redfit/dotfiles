@@ -33,7 +33,7 @@ brew "zsh"
 brew "nektos/tap/act"
 brew "sanemat/font/ricty", args: ["with-powerline"]
 
-cask_args appdir: "eApplications"
+cask_args appdir: "~/Applications"
 cask "alfred"
 cask "amazon-music"
 cask "appcleaner"
