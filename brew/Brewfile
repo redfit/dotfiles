@@ -5,49 +5,62 @@ tap "nektos/tap"
 tap "rcmdnk/rcmdnkpac"
 tap "sanemat/font"
 
+brew "act"
 brew "anyenv"
+brew "aws/tap/copilot-cli"
 brew "awscli"
+brew "bat"
+brew "chromaprint"
 brew "cocoapods"
 brew "direnv"
 brew "fd"
+brew "fdk-aac"
+brew "ffmpeg"
 brew "fzf"
 brew "gh"
 brew "ghq"
 brew "git"
-brew "git-delta"
 brew "git-now"
+brew "gobject-introspection"
+brew "grep"
+brew "imagemagick"
 brew "jq"
+brew "libvo-aacenc"
 brew "mackup"
 brew "macvim"
 brew "mas"
-brew "mecab"
 brew "mysql-client@5.7"
+brew "nkf"
+brew "openssl@1.1"
+brew "pango"
+brew "protobuf"
+brew "pstree"
 brew "redis"
+brew "rename"
 brew "ripgrep"
+brew "sanemat/font/ricty", args: ["with-powerline"]
+brew "sox"
 brew "starship"
 brew "tmux"
 brew "tree"
 brew "wget"
 brew "yarn"
-brew "zsh"
-brew "nektos/tap/act"
-brew "sanemat/font/ricty", args: ["with-powerline"]
+brew "yasm"
 
 cask_args appdir: "~/Applications"
-cask "alfred"
-cask "amazon-music"
-cask "appcleaner"
-cask "deepl"
+cask "alfred", args: { appdir: "~/ghq/src/github.com/redfit/dotfiles/brew/eApplications" }
+cask "amazon-music", args: { appdir: "~/ghq/src/github.com/redfit/dotfiles/brew/eApplications" }
+cask "appcleaner", args: { appdir: "~/ghq/src/github.com/redfit/dotfiles/brew/eApplications" }
+cask "deepl", args: { appdir: "~/ghq/src/github.com/redfit/dotfiles/brew/eApplications" }
 cask "docker"
-cask "dropbox"
-cask "google-japanese-ime"
-cask "google-cloud-sdk"
-cask "iterm2"
-cask "jetbrains-toolbox"
-cask "karabiner-elements"
-cask "ngrok"
-cask "notion"
-cask "trailer"
+cask "dropbox", args: { appdir: "~/ghq/src/github.com/redfit/dotfiles/brew/eApplications" }
+cask "google-cloud-sdk", args: { appdir: "~/ghq/src/github.com/redfit/dotfiles/brew/eApplications" }
+cask "google-japanese-ime", args: { appdir: "~/ghq/src/github.com/redfit/dotfiles/brew/eApplications" }
+cask "iterm2", args: { appdir: "~/ghq/src/github.com/redfit/dotfiles/brew/eApplications" }
+cask "jetbrains-toolbox", args: { appdir: "~/ghq/src/github.com/redfit/dotfiles/brew/eApplications" }
+cask "karabiner-elements", args: { appdir: "~/ghq/src/github.com/redfit/dotfiles/brew/eApplications" }
+cask "ngrok", args: { appdir: "~/ghq/src/github.com/redfit/dotfiles/brew/eApplications" }
+cask "notion", args: { appdir: "~/ghq/src/github.com/redfit/dotfiles/brew/eApplications" }
 cask "zoom"
 
 mas "LINE", id: 539883307
