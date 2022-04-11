@@ -12,7 +12,7 @@ if [[ $response =~ (y|yes|Y) ]]; then
         mv ~/$file ~/.mackup_backup/$now/$file
     fi
     # symlink might still exist
-    unlink ~/$file > /dev/null 2>&1
+    unlink ~/$file
     # create the link
     ln -s ~/ghq/src/github.com/redfit/dotfiles/$file ~/$file
 

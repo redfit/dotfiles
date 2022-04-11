@@ -5,6 +5,6 @@ action "Install anyenv-update plugin..."
 if [[ ! -d $(anyenv root)/plugins ]] then
   running "git clone anyenv-update"
   mkdir -p $(anyenv root)/plugins
-  git clone https://github.com/znz/anyenv-update.git $(anyenv root)/plugins/anyenv-update &>/dev/null
+  git clone https://github.com/znz/anyenv-update.git $(anyenv root)/plugins/anyenv-update
   ok
 fi

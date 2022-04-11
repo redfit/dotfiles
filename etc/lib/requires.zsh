@@ -7,10 +7,10 @@
 ###
 
 function require_brew() {
-    brew list $1 > /dev/null 2>&1 | true
+    brew list $1 | true
     if [[ ${PIPESTATUS[0]} != 0 ]]; then
         running "brew install $1"
-        brew install $1 &>/dev/null
+        brew install $1
         if [[ $? != 0 ]]; then
             error "failed to install $1! aborting..."
             # exit -1
@@ -21,7 +21,7 @@ function require_brew() {
 
 function require_cask() {
     running "brew cask $1"
-    brew cask list $1 > /dev/null 2>&1 | true
+    brew cask list $1 | true
     if [[ ${PIPESTATUS[0]} != 0 ]]; then
         action "brew cask install $1 $2"
         brew cask install $1
@@ -65,7 +65,7 @@ function require_npm() {
     sourceNVM
     nvm use stable
     running "npm $*"
-    npm list -g --depth 0 | grep $1@ > /dev/null
+    npm list -g --depth 0 | grep $1@
     if [[ $? != 0 ]]; then
         action "npm install -g $*"
         npm install -g $@

@@ -14,5 +14,5 @@ running "sudo systemsetup -setrestartfreeze on"
 sudo systemsetup -setrestartfreeze on;ok
 # スリープさせない
 running "sudo systemsetup -setcomputersleep Off"
-sudo systemsetup -setcomputersleep Off > /dev/null;ok
+sudo systemsetup -setcomputersleep Off;ok
 

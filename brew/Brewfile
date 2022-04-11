@@ -61,7 +61,6 @@ cask "jetbrains-toolbox", args: { appdir: "~/ghq/src/github.com/redfit/dotfiles/
 cask "karabiner-elements", args: { appdir: "~/ghq/src/github.com/redfit/dotfiles/brew/eApplications" }
 cask "ngrok", args: { appdir: "~/ghq/src/github.com/redfit/dotfiles/brew/eApplications" }
 cask "notion", args: { appdir: "~/ghq/src/github.com/redfit/dotfiles/brew/eApplications" }
-cask "zoom"
 
 mas "LINE", id: 539883307
 mas "PicGIF Lite", id: 844918735

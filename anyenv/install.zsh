@@ -1,7 +1,7 @@
 action "Install Anyenv..."
 
 running "anyenv init"
-anyenv init &>/dev/null;ok
+anyenv init;ok
 running "anyenv install --init"
 anyenv install --init
 ok
@@ -11,7 +11,7 @@ for lang in $langs; do
   if [[ "${+commands[$lang]}" == 0 ]]
   then
     running "anyenv install $lang"
-    anyenv install $lang &>/dev/null;ok
+    anyenv install $lang;ok
   fi
 done
 

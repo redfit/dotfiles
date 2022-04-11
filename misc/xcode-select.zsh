@@ -1,11 +1,11 @@
 action "Install command line tools..."
-if ! xcode-select --print-path &> /dev/null; then
+if ! xcode-select --print-path; then
 
     # Prompt user to install the XCode Command Line Tools
-    xcode-select --install &> /dev/null
+    xcode-select --install
 
     running "Wait until the XCode Command Line Tools are installed"
-    until xcode-select --print-path &> /dev/null; do
+    until xcode-select --print-path; do
         sleep 5
     done
     ok
