@@ -1,30 +1,14 @@
 action "Brew Bundle After settings..."
 
-running "linking diff-highlight"
-ln -sf /usr/local/share/git-core/contrib/diff-highlight/diff-highlight /usr/local/bin/diff-highlight
-
+running "install fzf"
+cd /opt/Homebrew/Cellar/fzf/*
+./install
 if [[ $? != 0 ]]; then
-  error "diff-highlight symlink error"
+  error "install fzf error"
   exit 2
 else
   ok
 fi
 
-running "install ricty font"
-sudo cp -f /usr/local/opt/ricty/share/fonts/Ricty*.ttf ~/Library/Fonts/
-fc-cache
-if [[ $? != 0 ]]; then
-  error "ricty font install error"
-  exit 2
-else
-  ok
-fi
-
-running "chmod -R 755 /usr/local/share"
-sudo chmod -R 755 /usr/local/share
-if [[ $? != 0 ]]; then
-  error "chmod error"
-  exit 2
-else
-  ok
-fi
+# 移動したのをもどす
+cd

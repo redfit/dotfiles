@@ -14,11 +14,9 @@ source ./etc/lib/requires.zsh
 
 bot "Hi! I'm going to install tooling and tweak your system settings. Here I go..."
 
+source $DOTDIR/osx/index.zsh
 source $DOTDIR/misc/index.zsh
 source $DOTDIR/brew/index.zsh
-source $DOTDIR/anyenv/index.zsh
-source $DOTDIR/app/index.zsh
-source $DOTDIR/osx/index.zsh
 
 # exec $SHELL の後だとOKが綺麗に出ないので先出ししちゃっている
 action "shell restart"
