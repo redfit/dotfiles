@@ -17,4 +17,3 @@ defaults write com.apple.finder ShowStatusBar -bool true;ok
 # 接続中のサーバを表示
 running "ShowMountedServersOnDesktop -bool true"
 defaults write com.apple.finder ShowMountedServersOnDesktop -bool true;ok
-

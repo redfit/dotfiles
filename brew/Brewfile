@@ -1,6 +1,7 @@
 tap "homebrew/cask-fonts"
 
 brew "act"
+brew "alfred"
 brew "awscli"
 brew "bat"
 brew "colordiff"
@@ -9,6 +10,7 @@ brew "fzf"
 brew "gh"
 brew "ghq"
 brew "git"
+brew "git-delta"
 brew "git-now"
 brew "grep"
 brew "jq"
@@ -46,5 +48,6 @@ mas "LINE", id: 539883307
 mas "PicGIF Lite", id: 844918735
 mas "Skitch", id: 425955336
 mas "Slack", id: 803453959
-mas "Spark", id: 1176895641
+mas "Spark Mail", id: 997102246
+
 
