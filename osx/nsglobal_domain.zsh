@@ -30,5 +30,5 @@ defaults write -g com.apple.keyboard.fnState -bool true;ok
 # 英語を打つときに、最初が勝手に大文字にならないようにする
 defaults write -g NSAutomaticCapitalizationEnabled -bool false;ok
 # beep音を消す
-defaults write -g com.apple.sound.uiaudio.enabled -int 0;ok
+defaults write -g com.apple.sound.beep.volume -int 0;ok
 
