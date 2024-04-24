@@ -2,6 +2,7 @@ tap "homebrew/cask-fonts"
 
 brew "act"
 brew "alfred"
+brew "aws/tap/copilot-cli"
 brew "awscli"
 brew "bat"
 brew "colordiff"
